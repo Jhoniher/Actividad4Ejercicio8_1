@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ej_8_1_personas;
 
-/**
- *
- * @author Jhony
- */
+package ej_8_1_personas;
+import java.util.*;
 public class ListaPersonas {
-    
+    Vector listaPersonas;
+    public ListaPersonas(){
+        listaPersonas=new Vector();
+    }
+    public void anadirPersona(Persona P){
+        listaPersonas.add(P);
+    }
+    public void eliminarPersona(int i){
+        listaPersonas.removeElementAt(i);
+    }
+    public void borrarLista(){
+        listaPersonas.removeAllElements();
+    }
 }
