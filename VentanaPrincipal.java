@@ -92,7 +92,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener{
             anadirPersona();
         }
         if(evento.getSource()==eliminar){
-            eliminarNombre(listaNombres.getSelectedIndex();
+            eliminarNombre(listaNombres.getSelectedIndex());
             
         }
         if(evento.getSource()==borrarLista){
